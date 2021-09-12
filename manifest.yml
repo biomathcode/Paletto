@@ -1,0 +1,16 @@
+modules:
+  macro:
+    - key: color-paletto-hello-world
+      function: main
+      title: ✨Paletto
+      description: Gives you 1000 beautiful color palettes
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/2119cb23-10ed-4e66-bae2-2ee73b1626ab
+permissions:
+  scopes: 
+    - 'read:me'
+    - storage:app
+
